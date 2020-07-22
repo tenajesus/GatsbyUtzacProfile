@@ -9,11 +9,11 @@ const Banner = (props) => (
             <div className="content">
                 <blockquote>
                 Por allá en Abril de 2020 me invitaron a participar en la JSWeek Edición Pandemia, una iniciativa colombiana sobre todo lo relacionado con Javascript (React, Angular, Vue, Vanilla JS, Node), aquel día todo cambió para mi. Quieres saber que significa "Yisus estás muteado" dale un vistazo a esto:
-                <a href="https://www.youtube.com/watch?v=joEISNnd6K0&t=6511s"> 📼</a>
+                <a href="https://www.youtube.com/watch?v=joEISNnd6K0&t=6511s" target="_blank"> 📼</a>
                 </blockquote>
 
                 <ul className="actions">
-                    <li><a href="#one" className="button scrolly">Conóceme</a></li>
+                    <li><a href="#projects" className="button special fit">Proyectos Actuales</a></li>
                 </ul>
             </div>
         </div>

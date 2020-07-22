@@ -28,59 +28,45 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
-                    <section id="one" className="tiles">
+                    <section id="projects" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Célula de Desarrollo de Software UTZAC</h3>
+                                <p>Estamos en la busqueda de la certificación ISO/IEC 29110 VSEs</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Leagold Mining</h3>
+                                <p>Leagold Mining es una empresa minera lider en la producción de oro a nivel Américas, se encuentra en desarrollo el sistema para el control de Mantenimiento para sus equipos de trabajo </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>TianGui's</h3>
+                                <p>Comprar los alimentos para la semana no debe ser un problema, con esta app móvil tendras a la mano el listado de aquellos productos que necesitas, haz chek en aquellos que ya adquiriste, tu y los demás usuarios podrán ver los cambios en tiempo real.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>DBmex</h3>
+                                <p>Desarrollo de sitio web y tienda en linea para la venta de beats / instrumetales de la casa productora K.M.I Group </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
+                        
                     </section>
-                    <section id="two">
+                    <section id="about">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Algo de mi</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
+                            <div class="box">
+                                Aparentemente soy un tipo de pocos amigos, me han dicho que tengo cara de "infumable" pero no es así. Siempre estoy dispuesto a compartir momentos con las personas, siempre y cuando tengan respeto por todo y por todos. Me gusta mucho el fútbol ⚽  
+                            </div>
                         </div>
                     </section>
                 </div>
