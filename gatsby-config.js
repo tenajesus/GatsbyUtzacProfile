@@ -4,7 +4,7 @@ module.exports = {
     author: "Gatsby Starte from Hunter Chang",
     description: "Site about JS"
   },
-  pathPrefix:"/docs",
+  pathPrefix:"/GatsbyUtzacProfile",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
