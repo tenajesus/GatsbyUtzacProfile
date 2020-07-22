@@ -8,19 +8,19 @@ const Contact = (props) => (
                 <form method="post" action="#">
                     <div className="field half first">
                         <label htmlFor="name">Nombre</label>
-                        <input type="text" name="name" id="name" />
+                        <input type="text" name="name" id="name" disabled />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Correo Electrónico</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="email" id="email" disabled />
                     </div>
                     <div className="field">
                         <label htmlFor="message">Tu mensaje</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <textarea name="message" id="message" rows="6" disabled></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <li><input type="submit" value="Enviar" className="special" /></li>
+                        <li><input type="reset" value="Cancelar" /></li>
                     </ul>
                 </form>
             </section>
@@ -29,9 +29,9 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">jrodriguez@utzac.edu.mx</a>
+                        <a href="mailto:jrodriguez@utzac.edu.mx">jrodriguez@utzac.edu.mx</a>
                         <br />
-                        <a href="#">salvador.rodriguez@zacatecas.gob.mx</a>
+                        <a href="mailto:salvador.rodriguez@zacatecas.gob.mx">salvador.rodriguez@zacatecas.gob.mx</a>
 
                     </div>
                 </section>
